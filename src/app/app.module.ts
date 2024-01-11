@@ -10,12 +10,18 @@ import {MatInputModule} from '@angular/material/input';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CategoriesComponent } from './home/categories/categories.component';
+import { ListCategoriesComponent } from './home/categories/list-categories/list-categories.component';
+import { AddCategorieComponent } from './home/categories/add-categorie/add-categorie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    CategoriesComponent,
+    ListCategoriesComponent,
+    AddCategorieComponent
   ],
   imports: [
     BrowserModule,
